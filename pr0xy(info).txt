@@ -1,0 +1,20 @@
+[Analyses]
+---------------------------------------------------------------
+1. We created a sniff.py python file to sniff all the TCP packets.
+2. Now we will create an interpreter to interprete a set of policies 
+for security of the network.
+3. We will analyse like :
+i. A traffic will be malicious if it is requesting for SSH info if it is running 
+over HTTP or HTTPS (rule1)
+ii. We will create a set of security rules to make follow by our 
+*pr0xy*
+
+[proxying or firewall tactics]
+-----------------------------------------------------------------
+1. We will create a pr0xy.py which will get the analyses from sniff.py if any 
+packet is malicous according to the security policies , we will discard that network 
+connection.
+2. IT will have all the admining functions to see what packets are getting discarded
+as it is open source , and it doesnt send any of the user data anywhere as u
+can see everything is tranparent in Open Source , and we will using OSINT security
+tactics from CISCO SecureX , Snort , Shodan.io and other platforms    
